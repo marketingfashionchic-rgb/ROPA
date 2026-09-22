@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial , sans-serif;
     margin: 0;
     background: #f1bbf2;
 }
@@ -35,8 +35,8 @@ header {
 
 .producto {
     background: white;
-    padding: 15px;
-    border-radius: 12px;
+    padding: 30px;
+    border-radius:24px;
     text-align: center;
     box-shadow: 0 2px 8px #ccc;
 }
@@ -101,18 +101,13 @@ header {
 
 <body>
 
-<header>
-    <h1>HERMOSOS ZAPATOS EN DIFERENTES TALLAS</h1>
-    <p>Carrito de compras</p>
-</header>
-
 <section class="productos">
 
     <div class="producto">
         <img src="producto1.jpeg" alt="Producto 1">
         <h3>Producto 1</h3>
         <p>190 Bs</p>
-        <button onclick="agregar('Producto 1',25)">
+        <button onclick="agregar('Producto 1',190)">
             Agregar al carrito
         </button>
     </div>
@@ -121,43 +116,43 @@ header {
         <img src="producto2.jpeg" alt="Producto 2">
         <h3>Producto 2</h3>
         <p>235 Bs</p>
-        <button onclick="agregar('Producto 2',35)">
+        <button onclick="agregar('Producto 2',235)">
             Agregar al carrito
         </button>
     </div>
 
     <div class="producto">
-        <img src="producto3.jpg" alt="Producto 3">
+        <img src="producto3.jpeg" alt="Producto 3">
         <h3>Producto 3</h3>
-        <p>50 Bs</p>
-        <button onclick="agregar('Producto 3',50)">
+        <p>250 Bs</p>
+        <button onclick="agregar('Producto 3',250)">
             Agregar al carrito
         </button>
     </div>
 
  <div class="producto">
-        <img src="producto4.jpg" alt="Producto 4">
+        <img src="producto4.jpeg" alt="Producto 4">
         <h3>Producto 4</h3>
-        <p>25 Bs</p>
-        <button onclick="agregar('Producto 4',25)">
+        <p>225 Bs</p>
+        <button onclick="agregar('Producto 4',225)">
             Agregar al carrito
         </button>
     </div>
 
     <div class="producto">
-        <img src="producto5.jpg" alt="Producto 5">
+        <img src="producto5.jpeg" alt="Producto 5">
         <h3>Producto 5</h3>
-        <p>35 Bs</p>
-        <button onclick="agregar('Producto 5',35)">
+        <p>235 Bs</p>
+        <button onclick="agregar('Producto 5',235)">
             Agregar al carrito
         </button>
     </div>
 
     <div class="producto">
-        <img src="producto6.jpg" alt="Producto 6">
+        <img src="producto6.jpeg" alt="Producto 6">
         <h3>Producto 6</h3>
-        <p>50 Bs</p>
-        <button onclick="agregar('Producto 6',50)">
+        <p>250 Bs</p>
+        <button onclick="agregar('Producto 6',250)">
             Agregar al carrito
         </button>
     </div>
@@ -165,8 +160,8 @@ header {
  <div class="producto">
         <img src="producto7.jpg" alt="Producto 7">
         <h3>Producto 7</h3>
-        <p>50 Bs</p>
-        <button onclick="agregar('Producto 7',50)">
+        <p>245 Bs</p>
+        <button onclick="agregar('Producto 7',245)">
             Agregar al carrito
         </button>
     </div>
@@ -174,16 +169,16 @@ header {
  <div class="producto">
         <img src="producto8.jpg" alt="Producto 8">
         <h3>Producto 8</h3>
-        <p>50 Bs</p>
-        <button onclick="agregar('Producto 8',50)">
+        <p>250 Bs</p>
+        <button onclick="agregar('Producto 8',250)">
             Agregar al carrito
         </button>
     </div>
  <div class="producto">
         <img src="producto9.jpg" alt="Producto 9">
         <h3>Producto 9</h3>
-        <p>50 Bs</p>
-        <button onclick="agregar('Producto 9',50)">
+        <p>280 Bs</p>
+        <button onclick="agregar('Producto 9',280)">
             Agregar al carrito
         </button>
     </div>
@@ -400,7 +395,7 @@ function enviarWhatsApp() {
     mensaje += "%0A*TOTAL: " + total + " Bs*";
 
     /* CAMBIA ESTE NÚMERO POR TU WHATSAPP */
-    let numero = "591 73971743";
+    let numero = "59171332731";
 
     window.open(
         "https://wa.me/" + numero + "?text=" + mensaje,
